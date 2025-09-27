@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Ethnic Threads</title>
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;700;900&amp;display=swap" rel="stylesheet"/>
+<script src="https://cdn.tailwindcss.com?plugins=container-queries"></script>
+<script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#ec1337",
+              "background-light": "#f8f6f6",
+              "background-dark": "#221013",
+            },
+            fontFamily: {
+              display: ["Be Vietnam Pro"],
+            },
+            borderRadius: {
+              DEFAULT: "0.25rem",
+              lg: "0.5rem",
+              xl: "0.75rem",
+              full: "9999px",
+            },
+          },
+        },
+      };
+    </script>
+<style>
+      .gradient-overlay {
+        background-image: linear-gradient(
+          to top,
+          rgba(0, 0, 0, 0.6) 0%,
+          rgba(0, 0, 0, 0) 50%
+        );
+      }
+    </style>
+</head>
+<body class="font-display bg-background-light dark:bg-background-dark text-stone-900 dark:text-stone-100">
+<div class="flex flex-col min-h-screen">
+<header class="sticky top-0 z-10 bg-background-light/80 dark:bg-background-dark/80 backdrop-blur-sm border-b border-stone-200 dark:border-stone-800">
+<div class="container mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8 py-3">
+<div class="flex items-center gap-3">
+<svg class="w-8 h-8 text-primary" fill="none" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg">
+<path clip-rule="evenodd" d="M24 4H42V17.3333V30.6667H24V44H6V30.6667V17.3333H24V4Z" fill="currentColor" fill-rule="evenodd"></path>
+</svg>
+<h1 class="text-xl font-bold">Ethnic Threads</h1>
+</div>
+<nav class="hidden md:flex items-center gap-6">
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">New Arrivals</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Sarees</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Lehengas</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Kurtis</a>
+<a class="text-sm font-medium hover:text-primary transition-colors" href="#">Jewelry</a>
+</nav>
+<div class="flex items-center gap-2">
+<button class="p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M229.66,218.34l-50.07-50.06a88.11,88.11,0,1,0-11.31,11.31l50.06,50.07a8,8,0,0,0,11.32-11.32ZM40,112a72,72,0,1,1,72,72A72.08,72.08,0,0,1,40,112Z"></path>
+</svg>
+</button>
+<button class="p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M230.92,212c-15.23-26.33-38.7-45.21-66.09-54.16a72,72,0,1,0-73.66,0C63.78,166.78,40.31,185.66,25.08,212a8,8,0,1,0,13.85,8c18.84-32.56,52.14-52,89.07-52s70.23,19.44,89.07,52a8,8,0,1,0,13.85-8ZM72,96a56,56,0,1,1,56,56A56.06,56.06,0,0,1,72,96Z"></path>
+</svg>
+</button>
+<button class="p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M216,40H40A16,16,0,0,0,24,56V200a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A16,16,0,0,0,216,40Zm0,160H40V56H216V200ZM176,88a48,48,0,0,1-96,0,8,8,0,0,1,16,0,32,32,0,0,0,64,0,8,8,0,0,1,16,0Z"></path>
+</svg>
+</button>
+<button class="md:hidden p-2 rounded-full hover:bg-stone-200 dark:hover:bg-stone-800 transition-colors">
+<svg fill="currentColor" height="20" viewBox="0 0 256 256" width="20" xmlns="http://www.w3.org/2000/svg">
+<path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,88H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path>
+</svg>
+</button>
+</div>
+</div>
+</header>
+<main class="flex-grow">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="mb-12">
+<div class="relative bg-cover bg-center rounded-xl min-h-[400px] flex flex-col justify-end items-start p-8 text-white shadow-lg overflow-hidden" style="
+                background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuCgTLqDQniDJ6scKAWGYgsB3kQl2ahf_9QNLNpiX7yQUTDbjB360XrrnvBJIQJ0Sx_v6A2js67CX-HQY0RpUQkTZd4j5WdVfVUcpknTs8khC7lDvHP9HaJ7JKVBQui3PbxPPhrpVCwzflJDwqor_LHtdKJWojJWki-oaTaOk0v5eTVrJfMWYWQgbWhiyUGD3jiCwq4MzPPVMXKcPHkQfpuCMKxGZ2KHQ8biREJeS7qplIhTE2CBtVQmEMSRCGyU5v44PioINos3-UY');
+              ">
+<div aria-hidden="true" class="absolute inset-0 gradient-overlay"></div>
+<div class="relative z-10">
+<h2 class="text-4xl lg:text-5xl font-black mb-4">
+                  New Arrivals
+                </h2>
+<p class="text-lg mb-6 max-w-lg">
+                  Discover our latest collection of exquisite ethnic wear,
+                  perfect for every occasion.
+                </p>
+<button class="bg-primary text-white font-bold py-3 px-8 rounded-full hover:bg-primary/90 transition-all transform hover:scale-105">
+                  Shop Now
+                </button>
+</div>
+</div>
+</div>
+<div class="mb-12">
+<h2 class="text-3xl font-bold mb-6 text-center text-stone-800 dark:text-stone-200">
+              Popular Categories
+            </h2>
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<div class="group relative rounded-lg overflow-hidden shadow-md">
+<img alt="Sarees" class="w-full h-full object-cover aspect-[4/5] transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCBAB4AAvNLVdVlagpmLtdpDXeQP0nsOIdptoeN81ENooiztPLWlmeSfgvgUkrkkVYXjGxN0CAiiBBWBNH0ZyU_NJOG0g08gIqyK0BsfVKNX-TxWs_x2fn-lb7hrpFlBBOXkUznx1v1km0Olwxrsty5utQ7vIpPvzZkKemPofJtywaPaM-L4KMHdjHtfvg68vV3vrAhgV4qnAJj_Zfskje9QpvZkeKULtR22jFB_Bw6CERqjlxGNjLUznbL_6mVqI8WRlw3nLI4XNQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-2xl font-bold text-white">Sarees</h3>
+</div>
+</div>
+<div class="group relative rounded-lg overflow-hidden shadow-md">
+<img alt="Lehengas" class="w-full h-full object-cover aspect-[4/5] transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBp4h-tYA0TPgTshCMB-Vm3s74gwfBBF03SsVwfjIkwf0NMvQCtyFeoAbD7SmNCDrApSTwMMLWfq592BLm2dMpnNSICxAYpiACE5TBxFxuG5L78_VIMq064ZZ_3afZiP6wUpgEiI4Su253r236NU5LoSze5fffLZse_FbibASGhvO73IOKG5cPXIjk9JNoqTgeS65UKZ13ewn9nD2gLUZMsNk22ZlLIsWgAp_63Klc-_22ka1nXyK4V4_P52rZPgxRE0pkA8QSyZvM"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-2xl font-bold text-white">Lehengas</h3>
+</div>
+</div>
+<div class="group relative rounded-lg overflow-hidden shadow-md">
+<img alt="Kurtis" class="w-full h-full object-cover aspect-[4/5] transform group-hover:scale-110 transition-transform duration-500" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCLijJkZvrloPEtlhKmBtGWa7Q_x6ucLUMi2k9AoEtwX57kpyWb7xrP4msBR-RmkoSifHeMIGQH6-PKWsP__ZSz0ZtIZcNYjoicrxW-Btz1w_Xyo7gYaa2b7vB1aZ3DhxZgffKecshLhZkktdo3EBQXsfmX8f-Ifx4Dw0YDvcWhqRVuiDZAC77Kg3IiGUr4dqrT4ayp3ulFfHSkeyVngbNsKBsOLkU0JCBUnZbFUGwSBz4BNFf-25djLB7hgJ_p6jTRFzsBy4aRszg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-6">
+<h3 class="text-2xl font-bold text-white">Kurtis</h3>
+</div>
+</div>
+</div>
+</div>
+<div>
+<h2 class="text-3xl font-bold mb-6 text-center text-stone-800 dark:text-stone-200">
+              Ongoing Promotions
+            </h2>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<div class="relative bg-cover bg-center rounded-xl flex items-center p-8 text-white shadow-lg overflow-hidden" style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuATq6fu1wJWaPlN2KEPnWRgae3LoOlw1BKMvypuuhyk2Nn4i0s3KDP6_RGQYVA9aK_5merL96f73vRtxYmGo9CTTjYGycd-9inEKm5osqZ4fFhNh4xDiTu8aHHO0G5H0-EXk4xpIwyd8PykuH4-Z8jwKBpJMCIHWKc-m2AJ4MqxkaOZ-QS6PBDXSR6tknjKAE2Snn9ONuFur46Z3_P3oaVx7EmU3QdFzK0-YJ4GKAkanabW1imQwaSPjZUqyaLUy5LT2BGLuFS9acg');
+                ">
+<div aria-hidden="true" class="absolute inset-0 bg-black/40"></div>
+<div class="relative z-10">
+<h3 class="text-2xl font-bold mb-2">Festive Sale</h3>
+<p class="mb-4">Up to 50% off on select items.</p>
+<a class="font-bold text-primary hover:underline" href="#">Shop the Sale</a>
+</div>
+</div>
+<div class="relative bg-cover bg-center rounded-xl flex items-center p-8 text-white shadow-lg overflow-hidden" style="
+                  background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuA5MRvms33i0CjNpoQtAoRfnWEuIdFvUld_Sjmf3wYzLw9HfqlYqVGAvDOc6UYjL5GrEifYR_dZ29xi4C_IhUWVV3WqrQ92xw4r7bstznnIfIWOnnrYuKyD6IiZdoWIlLacxxkaDAb_AmWPft17E5rxE5_OCUqg4YfLOxl6FX5YwWpTeiL6rynE1uDZWL90hNLrJe5Kek6qoZ9PWJ9SfUXOnKYI5fjG-9arB16aRKqsdnb9XKeTz2b8AAG1zDv4x9L8Usk3hKp1HR8');
+                ">
+<div aria-hidden="true" class="absolute inset-0 bg-black/40"></div>
+<div class="relative z-10">
+<h3 class="text-2xl font-bold mb-2">Clearance</h3>
+<p class="mb-4">Extra 20% off on all clearance items.</p>
+<a class="font-bold text-primary hover:underline" href="#">View Deals</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</main>
+<footer class="bg-stone-100 dark:bg-stone-900 mt-12">
+<div class="container mx-auto px-4 sm:px-6 lg:px-8 py-8">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-sm text-stone-600 dark:text-stone-400">
+<div>
+<h4 class="font-bold text-stone-900 dark:text-stone-100 mb-4">
+                Shop
+              </h4>
+<ul>
+<li class="mb-2"><a class="hover:text-primary" href="#">New Arrivals</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Sarees</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Lehengas</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Kurtis</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-stone-900 dark:text-stone-100 mb-4">
+                About Us
+              </h4>
+<ul>
+<li class="mb-2"><a class="hover:text-primary" href="#">Our Story</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Careers</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Press</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-stone-900 dark:text-stone-100 mb-4">
+                Customer Service
+              </h4>
+<ul>
+<li class="mb-2"><a class="hover:text-primary" href="#">Contact Us</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Shipping</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">Returns</a></li>
+<li class="mb-2"><a class="hover:text-primary" href="#">FAQ</a></li>
+</ul>
+</div>
+<div>
+<h4 class="font-bold text-stone-900 dark:text-stone-100 mb-4">
+                Follow Us
+              </h4>
+<div class="flex gap-4">
+<a class="hover:text-primary" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M22.46 6c-.77.35-1.6.58-2.46.67.88-.53 1.56-1.37 1.88-2.38-.83.49-1.75.85-2.72 1.05C18.37 4.5 17.26 4 16 4c-2.35 0-4.27 1.92-4.27 4.29 0 .34.04.67.11.98C8.28 9.09 5.11 7.38 3 4.79c-.37.63-.58 1.37-.58 2.15 0 1.49.75 2.81 1.91 3.56-.71 0-1.37-.22-1.95-.55v.03c0 2.08 1.48 3.82 3.44 4.21a4.22 4.22 0 0 1-1.94.07 4.28 4.28 0 0 0 4 2.98 8.52 8.52 0 0 1-5.33 1.84c-.34 0-.68-.02-1.01-.06C3.18 20.29 5.53 21 8.09 21c7.31 0 11.31-6.06 11.31-11.32v-.51c.78-.57 1.45-1.28 1.98-2.08z"></path></svg>
+</a>
+<a class="hover:text-primary" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.85s-.011 3.584-.069 4.85c-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07s-3.584-.012-4.85-.07c-3.252-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.85s.012-3.584.07-4.85c.149-3.225 1.664-4.771 4.919-4.919C8.416 2.175 8.796 2.163 12 2.163zm0 1.441c-3.118 0-3.483.011-4.702.067-2.61.12-3.791 1.3-3.911 3.911-.056 1.22-.066 1.583-.066 4.701s.01 3.482.066 4.702c.12 2.61 1.3 3.791 3.911 3.911 1.219.056 1.583.066 4.702.066s3.482-.01 4.702-.066c2.61-.12 3.791-1.3 3.911-3.911.056-1.22.066-1.583.066-4.702s-.01-3.482-.066-4.702c-.12-2.61-1.3-3.791-3.911-3.911C15.483 3.614 15.118 3.604 12 3.604zm0 3.084c-3.255 0-5.901 2.646-5.901 5.901s2.646 5.901 5.901 5.901 5.901-2.646 5.901-5.901-2.646-5.901-5.901-5.901zm0 9.721c-2.107 0-3.82-1.713-3.82-3.82s1.713-3.82 3.82-3.82 3.82 1.713 3.82 3.82-1.713 3.82-3.82 3.82zm5.228-7.854c-.551 0-.999.448-.999.999s.448.999.999.999c.552 0 .999-.448.999-.999s-.447-.999-.999-.999z"></path></svg>
+</a>
+<a class="hover:text-primary" href="#">
+<svg class="h-6 w-6" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"></path></svg>
+</a>
+</div>
+</div>
+</div>
+<div class="text-center text-xs text-stone-500 dark:text-stone-400 border-t border-stone-200 dark:border-stone-800 pt-6 mt-8">
+<p>© 2024 Ethnic Threads. All Rights Reserved.</p>
+</div>
+</div>
+</footer>
+</div>
+
+</body></html>
